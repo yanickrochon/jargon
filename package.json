@@ -1,0 +1,29 @@
+{
+  "name": "jargon",
+  "version": "0.0.0",
+  "description": "Argument parser for console applications",
+  "author": "Yanick Rochon <yanick.rochon@gmail.com>",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "htts://github.com/yanickrochon/jargon.git"
+  },
+  "keywords": [
+    "arguments",
+    "parser",
+    "shell",
+    "options"
+  ],
+  "dependencies": {
+    "error-factory": "0.0.15"
+  },
+  "devDependencies": {
+    "semicov": "^0.1.1-2",
+    "should": "^3.3.1",
+    "mocha": "^1.18.2"
+  },
+  "license": "MIT"
+}
